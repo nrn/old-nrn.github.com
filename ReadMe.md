@@ -2,7 +2,7 @@ This is not the wiki you are looking for
 ========================================
 
 This repository is a temporary experiment.
-To see the resault go to:
+To see the result go to:
 
 http://nickn.github.com/
 
