@@ -1,3 +1,11 @@
+window.catalog = {
+  "ByteBeat":
+    {"menu": "8-bit Music by Formula"}
+  "MathJax":
+    {"menu": "TeX Formatted Equations"}
+  "Calculator":
+    {"menu": "Running Sums for Expenses"}
+}
 window.plugins.factory =
   emit: (div, item) ->
     div.append '<p>Double-Click to Edit<br>Drop Text or Image to Insert</p>'
