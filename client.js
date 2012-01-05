@@ -7,7 +7,7 @@
   };
 
   $(function() {
-    var LEFTARROW, RIGHTARROW, a, addToJournal, asSlug, createPage, doInternalLink, doPlugin, findPage, formatTime, getItem, getPlugin, pagesInDom, pushToLocal, pushToServer, putAction, randomByte, randomBytes, refresh, resolveFrom, resolveLinks, scripts, scrollTo, setActive, setState, showState, startPages, textEditor, urlPage, urlPages, useLocalStorage, _i, _len;
+    var LEFTARROW, RIGHTARROW, addToJournal, asSlug, createPage, doInternalLink, doPlugin, findPage, formatTime, getItem, getPlugin, item, pagesInDom, pushToLocal, pushToServer, putAction, randomByte, randomBytes, refresh, resolveFrom, resolveLinks, scripts, scrollTo, setActive, setState, showState, startPages, textEditor, urlPage, urlPages, useLocalStorage, _i, _len;
     window.wiki = {};
     window.dialog = $('<div></div>').html('This dialog will show every time!').dialog({
       autoOpen: false,
@@ -557,8 +557,8 @@
       _ref = $(location).attr('pathname').split('/');
       _results = [];
       for (_i = 0, _len = _ref.length, _step = 2; _i < _len; _i += _step) {
-        a = _ref[_i];
-        _results.push(a);
+        item = _ref[_i];
+        _results.push(item);
       }
       return _results;
     })()).slice(1);
