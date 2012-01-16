@@ -1,7 +1,8 @@
 This is not the wiki you are looking for
 ========================================
 
-This repository is a temporary experiment.
+This repository is a temporary experiment,
+and out of date.
 To see the result go to:
 
 http://nickn.github.com/
